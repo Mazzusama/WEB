@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up Page</title>
     <link rel="stylesheet" href="styleforsu.css">
-    <link rel="icon" href="Images/logo3.png"type="image">
+    <link rel="icon" href="assets/usericon.png"type="image">
 </head>
 <body>
     
@@ -19,7 +19,7 @@
      	<?php } ?>
     <input type="Firstname" class="input-box" placeholder="First name" name="firstname" required>
     <input type="Lastname" class="input-box" placeholder="Last name" name="lastname" required>
-    <p><input type="username" class="input-box1" placeholder="Username" name="username" oninvalid="('Please Enter Another Username');" oninput="setCustomValidity('')" required></p>
+    <p><input type="email" class="input-box1" placeholder="Email" name="email" oninvalid="this.setCustomValidity('Please Enter valid Email Address');" oninput="setCustomValidity('')" required></p>
     <input type="Password" class="input-box1" placeholder="Password"name="password" pattern=".{8,}" oninvalid="this.setCustomValidity('Must contain 8 or more characters');" oninput="setCustomValidity('')" required>
     <input type="address" class="input-box1" placeholder="Province/Municipality/City/Zip Code" name="address" required>
     <p><hr>
