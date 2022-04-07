@@ -1,0 +1,100 @@
+h1 {
+  
+  font-family: sans-serif;
+  line-height: 3;
+  color: white;
+  text-align: left;
+  margin-left: 50px;
+}
+h2 {
+  
+  font-family: sans-serif;
+  line-height: .5;
+  color: rgb(1, 47, 116);
+  text-align: center;
+  font-size: 70px;
+  margin-top: 50px;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.background-image {
+    background-image: url('assets/signupbg.png');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+.Sign-up {
+    width: 400px;
+    box-shadow: 0 0 3px 0 rgba (0,0,0,1);
+    background: #fff;
+    padding: 20px;
+    margin: 4% auto 0;
+    text-align: center;
+}
+
+input {
+  margin: 20px;
+  font-family: sans-serif;
+}
+.input-box {
+  border-radius: 30px;
+  padding: 10px;
+  margin: 5px 0;
+  width: 40%;
+  border: 1px solid #999;
+  margin-bottom: 10px;
+}
+.input-box1 {
+  border-radius: 30px;
+  padding: 10px;
+  margin: 5px 0;
+  width: 85%;
+  border: 1px solid #999;
+  margin-bottom: 10px;
+}
+button{
+  color:#fff;
+  width: 90%;
+  padding: 10px;
+  border-radius: 18px;
+  font-size: 15px;
+  margin: 10px 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+button:hover{
+  cursor: pointer;
+  color: blue;
+}
+.signupbutton{
+  background-color: #1c8adb;
+}
+
+.gender{
+  padding: 30px;
+  margin: 20px 0;
+}
+hr{margin-bottom: 5px;}
+
+form span{
+  margin: 10px 0;
+}
+
+.form-control{
+  border-radius: 30px;
+  padding: 10px;
+  margin: 5px 0;
+  width: 85%;
+  border: 1px solid #999;
+  margin-bottom: 10px;
+}
+
+.icon{
+  background-image: url('Images/logo3.png');
+  font-size: 500px;
+}
